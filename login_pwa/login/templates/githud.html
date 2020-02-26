@@ -1,0 +1,37 @@
+{% extends 'base.html' %}
+
+{% block 'content' %}
+{% csrf_token %}
+
+<h1>Github profile</h1>
+
+<div id='git_image'>
+    <p id='para'></p>
+</div>
+
+
+
+<script>
+
+    
+
+    fetch('https://api.github.com/users/nutansonale')
+    .then(response => response.json())
+    .then(data => {
+        var gi= document.getElementById('para');
+        gi.innerHTML=JSON.stringify(data);
+    console.log(JSON.stringify(data)); // Prints result from `response.json()` in getRequest
+    
+    })
+
+    .catch(function(response){
+        return response.status;
+        console.log(response.status);
+    });
+    
+
+
+</script>
+
+
+{% endblock 'content' %}
