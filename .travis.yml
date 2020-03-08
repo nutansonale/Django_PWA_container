@@ -8,4 +8,4 @@ services:
 before_script: pip install docker-compose
 
 script:
-  - docker-compose run login_pwa
+  - docker-compose run login_pwa sh -c "python manage.py test login"
