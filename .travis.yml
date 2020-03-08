@@ -8,5 +8,4 @@ services:
 before_script: pip install docker-compose
 
 script:
-  - docker-compose run app sh -c login.pwa
-
+  - docker-compose run login_pwa
