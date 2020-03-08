@@ -1,4 +1,4 @@
-# pwa_rvce
+# pwa_rvce [![Build Status](https://travis-ci.com/nutansonale/pwa_rvce.svg?branch=master)](https://travis-ci.com/nutansonale/pwa_rvce)
 A simple PWA implementation inside docker container
 
 ## Used Tools <img src="https://avatars0.githubusercontent.com/u/1525981?s=200&v=4" width="50" height="50"><img src="https://avatars3.githubusercontent.com/u/27804?s=200&v=4" width="50" height="50"><img src="https://avatars0.githubusercontent.com/u/5429470?s=200&v=4" width="50" height="50">
