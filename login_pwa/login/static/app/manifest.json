@@ -1,0 +1,16 @@
+{
+    "name": "PWA_RVCE",
+    "short_name": "PWA",
+    "description": "A simple implementation of Progressive web application",
+    "start_url": "/",
+    "icons":[
+{
+  "src":"/login/static/images/logo.jpeg",
+  "type":"image/jpeg"
+}
+    ],
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "display": "standalone"
+    
+  }
