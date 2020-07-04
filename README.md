@@ -39,4 +39,4 @@ A simple PWA implementation inside docker container
 
 Here i have built a container that contains the progressive web application, built using the Django framework. The application contains a simple service worker along with mainfest file. Here the service worker is served as a template form rather than a static file. the Application itself is more of a demo of how a pwa can be implemented and that can be containerized.
 
-testing commit 1
+testing commit 2
